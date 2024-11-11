@@ -60,7 +60,6 @@ def get_response(user_query, chat_history, tipollm = 'gemini'):
         )
     elif tipollm == 'gpt':
         llm = ChatOpenAI(temperature=1.0, model="gpt-4o")
-        
     chain = prompt | llm | StrOutputParser()
     try:
         resp = chain.invoke({"chat_history": chat_history,"user_question": user_query,})
