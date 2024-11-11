@@ -3,13 +3,6 @@ from globals import *
 from tools import *
 logd("Iniciando a aplicação")
 # Ler o arquivo .env
-try:
-    # Tenta carregar as variáveis de ambiente
-    if not load_dotenv():
-        raise EnvironmentError("Arquivo .env não encontrado ou falha ao carregar.")
-except EnvironmentError as e:
-    loge(f"Erro ao carregar o arquivo .env: {e}")
-    print("A operação load_dotenv() não foi bem-sucedida. O programa não pode continuar.")
 
 audio_saida_bytes = BytesIO()
 
