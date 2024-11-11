@@ -9,7 +9,6 @@ from langchain_core.prompts import ChatPromptTemplate       # type: ignore
 from langchain_core.output_parsers import StrOutputParser   # type: ignore  JsonOutputParser
 from langchain_google_genai import ChatGoogleGenerativeAI,HarmCategory,HarmBlockThreshold # type: ignore
 from langchain_openai import ChatOpenAI         # type: ignore
-from dotenv import load_dotenv                  # type: ignore
 from PIL import Image                           # type: ignore
 import requests                                 # type: ignore
 from gtts import gTTS                           # type: ignore
