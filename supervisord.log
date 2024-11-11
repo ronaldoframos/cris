@@ -1,0 +1,10 @@
+2024-11-10 17:21:57,904 INFO Set uid to user 1000 succeeded
+2024-11-10 17:21:57,914 INFO supervisord started with pid 37051
+2024-11-10 17:21:58,917 INFO spawned: 'cris' with pid 37058
+2024-11-10 17:21:58,919 INFO spawned: 'dashboard' with pid 37059
+2024-11-10 17:22:00,569 INFO success: cris entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-10 17:22:00,569 INFO success: dashboard entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-11-10 17:23:41,797 WARN received SIGINT indicating exit request
+2024-11-10 17:23:41,798 INFO waiting for cris, dashboard to die
+2024-11-10 17:23:42,238 INFO stopped: dashboard (exit status 0)
+2024-11-10 17:23:42,711 INFO stopped: cris (exit status 0)
