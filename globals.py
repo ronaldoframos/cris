@@ -22,9 +22,7 @@ logger = logging.getLogger("__name__")
 logger.setLevel(logging.DEBUG)  # Define o nível de log
 
 # Configuração do handler para salvar logs em um arquivo
-file_handler = logging.FileHandler("logs.txt")
 file_handler.setLevel(logging.DEBUG)
-
 # Formato de log
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
