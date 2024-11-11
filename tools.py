@@ -2,7 +2,6 @@
 import sqlite3
 import re,json
 from globals import *
-load_dotenv()
 # Conecta ao banco de dados SQLite (será criado se não existir)
 try:
     conn = sqlite3.connect(BANCO_DADOS)
