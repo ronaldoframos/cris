@@ -10,7 +10,6 @@ try:
 except EnvironmentError as e:
     loge(f"Erro ao carregar o arquivo .env: {e}")
     print("A operação load_dotenv() não foi bem-sucedida. O programa não pode continuar.")
-    sys.exit(1)  # Encerra o programa com um código de erro
 
 audio_saida_bytes = BytesIO()
 
