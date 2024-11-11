@@ -59,7 +59,7 @@ def get_response(user_query, chat_history, tipollm = 'gemini'):
         max_tokens=100,
         )
     elif tipollm == 'gpt':
-        llm = ChatOpenAI(temperature=1.0, model="gpt-4o",model_kwargs={"frequency_penalty":2.0},
+        llm = ChatOpenAI(temperature=1.0, model="gpt-4o",
                          openai_api_key=os.getenv("OPENAI_API_KEY"))
         
     chain = prompt | llm | StrOutputParser()
