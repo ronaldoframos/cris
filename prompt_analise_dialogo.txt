@@ -9,7 +9,8 @@ Analise o diálogo, identificando as seguintes informações do solicitante:
 - Status de cliente existente (se o solicitante já é cliente da instituição)
 - Histórico de inadimplência (se há algum registro de inadimplência)
 ** Formatação de saída **
-Se alguma informação não for mencionada, deixe o valor como null.
+Se alguma informação não for mencionada, deixe o valor como null. Os valores numéricos devem ser colocados no formato decimal
+americano sem virgula ou cifrão.
 Retorne as informações coletadas no seguinte formato JSON:
 {{
   "nome": "<nome do solicitante>",
