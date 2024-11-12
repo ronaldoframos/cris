@@ -6,7 +6,7 @@ from dotenv import load_dotenv #type: ignore
 from dashboard_module import *
 logd("Iniciando a aplicação")
 # Ler o arquivo .env
-load_dotenv()
+#load_dotenv()
 
 audio_saida_bytes = BytesIO()
 
